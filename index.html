@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Chef Kim's Restaurant</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" media="all">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merienda One">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+      <!-- Note: .container vs .container-fluid
+        Use .container-fluid for a full width container, spanning the entire width of your viewport.
+        Use .container for a responsive fixed width container.
+      -->
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Chef Kim's</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#home">Home<span class="sr-only">(current)</span></a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <!--li>
+              <form class="navbar-form navbar-right" role="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="userName" name="userName">
+                  <input type="text" class="form-control" placeholder="passWord" name="passWord">
+                </div>
+                <button type="submit" class="btn btn-default">Sign In</button>
+              </form>
+            </li-->
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <header class="jumbotron">
+        <div class="container-fluid">
+            <div class="row">
+              <h1>Decent &amp; Peaceful</h1>
+              <a class="btn btn-info btn-lg" href="#reserveForm" role="button">Reservation</a>
+            </div>
+        </div>
+    </header>
+    <div id="myCarousel" class="carousel slide lazy" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="images/carousel/large/restaurant.jpg" alt="restaurant">
+          <div class="carousel-caption">
+            <h1>Decent &amp; Peaceful</h1>
+            <p><a class="btn btn-lg btn-info" href="#reserveForm" role="button">Reservation</a></p>
+          </div>
+        </div>
+        <div class="item">
+          <img data-src="images/carousel/large/kichen.jpg" alt="kichen">
+          <div class="carousel-caption">
+            <h1>Focus</h1>
+          </div>
+        </div>
+        <div class="item">
+          <img data-src="images/carousel/large/hand-made.jpg" alt="healthy food">
+          <div class="carousel-caption">
+            <h1>Hand-Made</h1>
+          </div>
+        </div>
+        <div class="item">
+          <img data-src="images/carousel/large/pie.jpeg" alt="pot pie">
+          <div class="carousel-caption">
+            <h1>Traditional</h1>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <h2>Appetizers</h2>
+                <img src="images/appetizer.jpg" class="img-responsive" alt="appetizer">
+                <p class="margin-top">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <h2>Entree</h2>
+                <img src="images/entree.jpg" class="img-responsive" alt="entree">
+                <p class="margin-top">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <h2>Soup</h2>
+                <img src="images/soup.jpg" class="img-responsive" alt="soup">
+                <p class="margin-top">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <h2>Salad</h2>
+                <img src="images/salad.jpg" class="img-responsive" alt="salad">
+                <p class="margin-top">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <h2>Pot Pies</h2>
+                <img src="images/potPie.jpg" class="img-responsive" alt="potPie">
+                <p class="margin-top">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <h2>Fruit Pies</h2>
+                <img src="images/fruitPie.jpg" class="img-responsive" alt="fruitPie">
+                <p class="margin-top">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <h2>Breads</h2>
+                <img src="images/bread.jpg" class="img-responsive" alt="freshBread">
+                <p class="margin-top">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <h2>Drink</h2>
+                <img src="images/juice.jpg" class="img-responsive" alt="drink">
+                <p class="margin-top">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- forms -->
+    <div class="container" id="reserveForm">
+      <div class="row">
+        <div class="col-xs-12 col-sm-9">
+          <h2>Make A Reservation</h2>
+          <form class="form-horizontal" id="eventForm" role="form" action="" method="POST">
+            <div class="form-group">
+              <label class="control-label col-sm-3" for="firstName">Name</label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" id="firstName">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-3" for="email1">Email</label>
+              <div class="col-sm-9">
+                <input type="email" class="form-control" id="email1">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-3" for="phone1">Phone</label>
+              <div class="col-sm-9">
+                <input type="tel" class="form-control" id="phone1">
+              </div>
+            </div>
+            <div class="form-group">  <!-- Date input -->
+              <label class="control-label col-sm-3" for="datePicker">Date</label>
+              <div class="col-sm-9">
+                <div class="input-group input-append date" id="datePicker">
+                  <input type="text" class="form-control" name="date" id="datePicker">
+                  <span class="input-group-addon add-on"><span class="glyphicon glyphicon-calendar"></span></span>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-3 col-sm-9">
+                <h5><strong><span>* </span>We value your privacy.</strong></h5>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-3 col-sm-9">
+                <div class="checkbox">
+                  <label><input type="checkbox">I would like to hear about special events.</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-3 col-sm-9">
+                <button type="submit" class="btn btn-primary">Book It</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="container">
+        <div class="row">
+          <div class="col-xs-11 col-xs-offset-1 col-sm-2 col-sm-offset-1">
+            <h3><b>Links</b></h3>
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-11 col-xs-offset-1 col-sm-5 col-sm-offset-0">
+            <h3><b>Our Address</b></h3>
+            <address>
+              1 Kearny St, San Francisco, CA 94108<br>
+              <i class="fa fa-phone"></i>: +852 1234 5678<br>
+              <i class="fa fa-fax"></i>: +852 8765 4321<br>
+              <i class="fa fa-envelope"></i>: <a href="mailto:ChefKims@food.net">ChefKims@food.net</a>
+            </address>
+          </div>
+          <div class="col-xs-11 col-xs-offset-1 col-sm-4 col-sm-offset-0">
+            <div class="social">
+              <h3><b>Like Us</b></h3>
+              <ul>
+                <li>
+                  <a target="_blank" href="https://www.facebook.com/Premier-Commerical-Cleaning-Solutions-Inc-310962123416">
+                    <i class="fa fa-lg fa-facebook-official" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/company/290027">
+                    <i class="fa fa-lg fa-linkedin-square" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://plus.google.com/115146114726257608656/about">
+                    <i class="fa fa-lg fa-google-plus-square" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-12" id="copyRight">
+            <p>Responsive example using Bootstrap. &copy; YajingLi, Fall 2016<br>
+            All pictures came from pexels.com</p>
+          </div>
+        </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap Date-Picker Plugin -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+    <script type="text/javascript">
+      function datapickerFn() {
+        var date_input=$('input[name="date"]'); //our date input has the name "date"
+        var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+        var options={
+          format: 'mm/dd/yyyy',
+          container: container,
+          todayHighlight: true,
+          autoclose: true,
+        };
+        date_input.datepicker(options);
+      }
+      $(document).ready(datapickerFn);
+      /* lazy load carousel */
+      $(function() {
+        return $(".carousel.lazy").on("slide.bs.carousel", function(ev) {
+          var lazy;
+          lazy = $(ev.relatedTarget).find("img[data-src]");
+          lazy.attr("src", lazy.data('src'));
+          lazy.removeAttr("data-src");
+        });
+      });
+    </script>
+  </body>
+</html>

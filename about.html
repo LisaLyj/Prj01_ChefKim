@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us</title>
+    <link rel="stylesheet" type="text/css" href="jquery-ui-1.12.1/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/about.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" media="all">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merienda One">
+</head>
+<body>
+    <!-- navbar-fixed-top vs. navbar-static-top -->
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container-fluid">
+      <!-- Note: .container vs .container-fluid
+        Use .container-fluid for a full width container, spanning the entire width of your viewport.
+        Use .container for a responsive fixed width container.
+      -->
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Chef Kim's</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li class="active"><a href="#">About<span class="sr-only">(current)</span></a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <main class="container">
+      <div class="row well">
+        <div class="col-sm-12">
+          <h1>Our History</h1>
+        </div>
+        <div class="col-sm-7 col-md-9 col-md-push-3 col-xs-12">
+          <!--div class="alert alert-danger"-->
+            <p>The Chef Kim's restaurant was established in 1980 by Chef Long Kim, located on San Francisco downtown.</p>
+            <p>Adopting a 1950s theme, the Chef Kim's intends to serve traditional American foods, such as fruit pies and cobblers, freshly baked breads, pot pies, and other "home-cooking" with an eye toward health.</p>
+            <p></p>
+          <!--/div-->
+        </div>
+        <div class="col-sm-5 col-md-3 col-md-pull-9 hidden-xs">
+          <!--div class="alert alert-info"-->
+            <img class="img-responsive" src="images/history.jpg" alt="restaurant">
+          <!--/div-->
+        </div>
+      </div>
+
+    <!-- Accordion -->
+      <div class="row">
+        <h1>Founders</h1>
+        <div id="accordion">
+            <h1>Long Kim <small>Chef, Entrepreneur</small></h1>
+            <div class="container">
+              <div class="col-sm-3 col-xs-12">
+                  <img class="img-responsive" src="images/founder/Kim.jpg" alt="Kim">
+              </div>
+              <div class="col-sm-9 col-xs-12">
+                <p>Long Kim is the founder and Chef of Chef Kim's restaurant.</p>
+                <p>Long Kim was born in France in 1935, and first apprenticed in a kitchen at the age of 13. After training in Paris, he moved to the United States, where he worked as a chef in top restaurants. He founded Chef Kim's restaurant with his friends in 1980. Now it is one of the most popular restaurants in San Francisco Bay Area, California, USA.</p>
+              </div>
+            </div>
+            <h1>Wolfgang Puck <small>Chef, Journalist, Television Personality</small></h1>
+            <div class="container">
+              <div class="col-sm-3 col-xs-12">
+                  <img class="img-responsive" src="images/founder/WPuck.jpg" alt="Puck">
+              </div>
+              <div class="col-sm-9 col-xs-12">
+                <p>Wolfgang Puck is a chef who expanded his purview into running restaurants, writing cookbooks and hosting cooking shows.</p>
+                <p>With a menu that fused California ingredients with classic French cuisine, Wolfgang Puck opened his first restaurant, Spago—Italian slang for spaghetti—in 1982. In the ensuing years, he would capitalize on the success of Spago by opening other places across the U.S. Puck has also opened casual eateries, written cookbooks and starred in Wolfgang Puck, a TV series on the Food Network.</p>
+              </div>
+            </div>
+            <h1>Anthony Bourdain <small>Chef, Producer, Television Personality</small></h1>
+            <div class="container">
+              <div class="col-sm-3 col-xs-12">
+                <img class="img-responsive" src="images/founder/ABourdain.jpg" alt="Bourdain">
+              </div>
+              <div class="col-sm-9 col-xs-12">
+                <p>Chef Anthony Bourdain moved out of the kitchen to become a bestselling author and award-winning TV personality, gaining wider fame with his unique culinary worldview.</p>
+                <p>Anthony Bourdain was born on June 25, 1956, eventually establishing himself as executive chef at Brasserie Les Halles. After his article "Don’t Read Before Eating This" appeared in The New Yorker to raves in 1997, Bourdain moved from one high-profile culinary project to the next, including TV shows A Cook’s Tour and Anthony Bourdain: No Reservations. He has also written several books, including Kitchen Confidential: Adventures in the Culinary Underbelly.</p>
+              </div>
+            </div>
+            <h1>Rachael Ray <small>Chef, Philanthropist, Television Personality</small></h1>
+            <div class="container">
+              <div class="col-sm-3 col-xs-12">
+                <img class="img-responsive" src="images/founder/RRay.jpg">
+              </div>
+              <div class="col-sm-9 col-xs-12">
+              <p>Celebrity chef Rachael Ray has hosted Food Network shows, authored lots of cookbooks, and has her own nationally syndicated television talk show, Rachael Ray.</p>
+              <p>Rachael Ray was born on August 25, 1968, in New York. She held several jobs in the food industry before her signature "30 Minute Meals" classes were picked up by a local television newscast. She went on to host several Food Network shows, author tons of cookbooks, launch her own magazine, and start a nationally syndicated talk show, Rachael Ray, for which has been nominated for multiple Daytime Emmy Awards since its premiere and has taken home two.</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </main>
+    <footer class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <p>Responsive Design using Bootstrap. &copy; Yajing Li. 2016 Fall.<br>
+          All chefs pictures and bio came from <a href="http://www.biography.com/people/groups/chefs">biography.com</a>.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="jquery-ui-1.12.1/external/jquery/jquery.js" type="text/javascript"></script>
+    <script src="jquery-ui-1.12.1/jquery-ui.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $("#accordion").accordion({active:false, collapsible:true, heightStyle:"content"});
+    </script>
+</body>
+</html>

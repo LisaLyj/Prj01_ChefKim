@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merienda One', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+h1 {
+    font-size: 220%;
+    padding: .5em;
+    margin: 0;
+    font-weight: normal;
+    /*color: #555;*/
+}
+h2 {
+    text-align: center;
+    font-size: 180%;
+    font-weight: normal;
+}
+p {
+    padding: 0 5%;
+    line-height: 1.5em;
+    text-align: center;
+    letter-spacing: .08em;
+}
+
+footer {
+    background-color: #cccccc;
+    margin: 0 auto;
+}
+.navbar-brand {font-size: 250%;}
+.navbar { margin-bottom: 0; }
+.jumbotron {
+    background: #000 url("../images/jumbotran/restaurant.jpg") no-repeat center center;
+    padding-top: 20%;
+    padding-bottom: 8%;
+    overflow: hidden;
+    background-size: cover;
+    display: none;
+}
+.jumbotron div.row { text-align: center; }
+.jumbotron h1 {
+    color: #DDD;
+    font-size: 220%;
+    line-height: 1.5em;
+}
+#reserveForm {
+    margin: 1% auto 0.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-image: url('../images/reserve.jpg');
+}
+#reserveForm h2 {
+    text-align: left;
+    margin-bottom: 5%;
+}
+#reserveForm h5 {
+    color: red;
+    font-style: italic;
+}
+/* for social icons with font awesome */
+* {
+    box-sizing: border-box;
+}
+.social {
+    margin: 0;
+    padding: 0;
+}
+.social ul {
+    margin: 0;
+    padding: 0;
+}
+.social ul li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 5px;
+}
+.social i {
+    background-color: #555;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 22px;
+    height: 40px;
+    padding-top: 12px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    width: 40px;
+}
+.social i:hover { color: #600; }
+#copyRight {
+    background-color: #666666;
+    margin: 1% auto 0;
+}
+#copyRight p {
+    color: white;
+    font-size: .8em;
+    padding: 1em;
+}
+@media (max-width: 767px) {
+    #myCarousel { display: none; }
+    .jumbotron { display: block; }
+    .nav li a { text-align: right; }
+
+    .navbar-brand { font-size: 250%; }
+    .jumbotron h1 { font-size: 196%; }
+    h2 { font-size: 160%; }
+}
+
+@media (max-width: 500px) {
+    .navbar-brand { font-size: 200%; }
+    .jumbotron h1 { font-size: 170%; }
+    .jumbotron .btn-lg { font-size: 14px; padding: 8px 12px;}
+    h2 { font-size: 140%; }
+}
+
+@media (max-width: 420px) {
+    .navbar-brand { font-size: 180%; }
+    .jumbotron { padding-top: 30%; padding-bottom: 8%; }
+    .jumbotron h1 { display: none; }
+    .jumbotron .btn-lg { font-size: 12px; padding: 6px 10px;}
+    h2 { font-size: 126%; }
+    }
+}
