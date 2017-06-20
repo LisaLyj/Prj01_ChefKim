@@ -2,4 +2,4 @@
 responsive web design using bootstrap
 
 
-publish link: https://applefacelisa.github.io/Prj01_ChefKim/
+publish link: https://lisalyj.github.io/Prj01_ChefKim/
